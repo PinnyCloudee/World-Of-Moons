@@ -46,8 +46,8 @@ charadex.sheet = {
     statuses: ['All', 'Orphan', 'Unnamed', 'For Trade', 'Gifted', 'Forever Homed', 'Nomad'],
     rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary'],
     species: ['All', 'Default', 'Airborn', 'Elf', 'Royal'],
-    itemTypes: ['All', 'Currency', 'MYO Slot', 'Pet', 'Trait', 'Misc'],
-    traitTypes: ['All', 'Ears', 'Eyes', 'Body', 'Limbs', 'Tails', 'Misc', 'Mutations']
+    itemTypes: ['All', 'Currency', 'voucher', 'Accesory', 'Breeding', 'Misc'],
+    traitTypes: ['All', 'Ears', 'Eyes', 'Fluff', 'Wings', 'Horns', 'Tails', 'Special']
 
   }
 
