@@ -35,7 +35,7 @@ charadex.sheet = {
     inventoryLog:  "inventory log",
     items:         "items",
     traits:        "traits",
-    prompts:       "prompts",
+    events:       "events",
     faq:           "faq",
     staff:         "mods",
   },
@@ -508,8 +508,8 @@ charadex.page.inventory = {
 charadex.page.index = {
 
   prompts: {
-    ... charadex.page.prompts,
-    dexSelector: 'prompt',
+    ... charadex.page.events,
+    dexSelector: 'events',
     amount: 3,
   },
 
