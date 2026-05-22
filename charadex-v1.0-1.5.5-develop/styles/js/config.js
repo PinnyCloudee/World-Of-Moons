@@ -160,10 +160,10 @@ charadex.page.traits = {
 
 /* Prompts
 /* --------------------------------------------------------------- */
-charadex.page.prompts = {
+charadex.page.events = {
 
-  sheetPage: charadex.sheet.pages.prompts,
-  sitePage: 'prompts',
+  sheetPage: charadex.sheet.pages.events,
+  sitePage: 'events',
   dexSelector: 'charadex',
   profileProperty: 'title',
 
