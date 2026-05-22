@@ -43,9 +43,9 @@ charadex.sheet = {
   options: {
 
     designTypes: ['All', 'CYO', 'Franken', 'Inspo', 'Custom', 'offspring', 'Premade'],
-    statuses: ['All', 'Resell', 'Trade', 'Gift', 'Voided', 'For Sale', 'Purchased'],
+    statuses: ['All', 'Orphan', 'Unnamed', 'For Trade', 'Gifted', 'Forever Homed', 'Nomad'],
     rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary'],
-    species: ['All', 'Dog', 'Cat', 'Bunny'],
+    species: ['All', 'Default', 'Airborn', 'Elf', 'Royal'],
     itemTypes: ['All', 'Currency', 'MYO Slot', 'Pet', 'Trait', 'Misc'],
     traitTypes: ['All', 'Ears', 'Eyes', 'Body', 'Limbs', 'Tails', 'Misc', 'Mutations']
 
