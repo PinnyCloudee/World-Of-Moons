@@ -343,7 +343,7 @@ charadex.page.masterlist = {
   search: {
     toggle: true,
     filterToggle: true,
-    parameters: ['All', 'ID', 'Design', 'Owner', 'Designer', 'Artist', 'Traits']
+    parameters: ['All', 'ID', 'Design', 'Owner', 'Colourist', 'Traits']
   },
 
   prevNext: {
