@@ -42,7 +42,7 @@ charadex.sheet = {
 
   options: {
 
-    designTypes: ['All', 'Official Design', 'Guest Design', 'MYO Slot', 'MYO Design'],
+    colourist: ['All', 'CYO', 'Guest', 'MYO Slot', 'MYO Design'],
     statuses: ['All', 'Resell', 'Trade', 'Gift', 'Voided', 'For Sale', 'Purchased'],
     rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary'],
     species: ['All', 'Dog', 'Cat', 'Bunny'],
