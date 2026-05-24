@@ -30,7 +30,7 @@ body {
   /* Backgrounds
   ================================================================ */
   --cd-body-background-color: #412594;
-  --cd-content-background-color: #7451E0;
+  --cd-content-background-color: #d4c8f7;
   --cd-faded-background-color: #281464;
 
   /* Background Extras */
@@ -40,7 +40,7 @@ body {
   /* Text
   ================================================================ */
   --cd-body-text-color: #281464;
-  --cd-faded-text-color: #BC95E9;
+  --cd-faded-text-color: #412594;
 
   /* ============================================================= */
   /* Borders
