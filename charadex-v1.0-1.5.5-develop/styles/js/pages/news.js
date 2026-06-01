@@ -14,17 +14,17 @@ document.addEventListener("DOMContentLoaded", async () => {
     (arr) => {
 
       let pageUrl = charadex.url.getPageUrl(charadex.page.news.sitePage);
-      for (let question of arr) {
+      for (let title of arr) {
 
         // Make the tags pretty and actually work <3
-        question.tags = question.tags ? question.tags.split(',') : [];
+        title.tags = title.tags ? title.tags.split(',') : [];
         let fancyTagArr = [];
-        if (question.tags.length >= 1) {
-          for (let tag of question.tags) {
+        if (title.tags.length >= 1) {
+          for (let tag of title.tags) {
             fancyTagArr.push(`<a href="${charadex.url.addUrlParameters(pageUrl, {tags: tag.trim()})}">#${tag.trim()}</a>`);
           }
         }
-        question.fancytags = fancyTagArr.join(' ');
+        title.fancytags = fancyTagArr.join(' ');
 
       }
       
