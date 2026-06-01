@@ -507,7 +507,7 @@ charadex.page.inventory = {
 /* --------------------------------------------------------------- */
 charadex.page.index = {
 
-  prompts: {
+  events: {
     ... charadex.page.events,
     dexSelector: 'events',
     amount: 3,
