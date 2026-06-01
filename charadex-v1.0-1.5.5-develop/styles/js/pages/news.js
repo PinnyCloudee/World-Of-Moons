@@ -17,14 +17,14 @@ document.addEventListener("DOMContentLoaded", async () => {
       for (let title of arr) {
 
         // Make the tags pretty and actually work <3
-        title.tags = title.tags ? title.tags.split(',') : [];
+        question.tags = question.tags ? question.tags.split(',') : [];
         let fancyTagArr = [];
-        if (title.tags.length >= 1) {
-          for (let tag of title.tags) {
+        if (question.tags.length >= 1) {
+          for (let tag of question.tags) {
             fancyTagArr.push(`<a href="${charadex.url.addUrlParameters(pageUrl, {tags: tag.trim()})}">#${tag.trim()}</a>`);
           }
         }
-        title.fancytags = fancyTagArr.join(' ');
+        question.fancytags = fancyTagArr.join(' ');
 
       }
       
