@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     (arr) => {
 
       let pageUrl = charadex.url.getPageUrl(charadex.page.news.sitePage);
-      for (let title of arr) {
+      for (let question of arr) {
 
         // Make the tags pretty and actually work <3
         question.tags = question.tags ? question.tags.split(',') : [];
