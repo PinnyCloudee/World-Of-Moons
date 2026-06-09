@@ -37,6 +37,7 @@ charadex.sheet = {
     traits:        "traits",
     events:       "events",
     faq:           "faq",
+    news:           "news",
     staff:         "mods",
   },
 
@@ -45,7 +46,7 @@ charadex.sheet = {
     designTypes: ['All', 'CYO', 'Franken', 'Inspo', 'Custom', 'offspring', 'Premade'],
     statuses: ['All', 'Orphan', 'Unnamed', 'For Trade', 'Gifted', 'Forever Homed', 'Nomad'],
     rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary'],
-    species: ['All', 'Default', 'Airborn', 'Elf', 'Royal'],
+    species: ['All', 'Plains born', 'Mountain born', 'Forest born', 'Royal'],
     itemTypes: ['All', 'Currency', 'voucher', 'Accesory', 'Breeding', 'Misc'],
     traitTypes: ['All', 'Ears', 'Eyes', 'Fluff', 'Wings', 'Horns', 'Tails', 'Special']
 
@@ -293,6 +294,52 @@ charadex.page.faq = {
     toggle: true,
     filterToggle: true,
     parameters: ['All', 'Question', 'Answer', 'Tags']
+  },
+
+  prevNext: {
+    toggle: false,
+  },
+
+
+}/* news
+/* --------------------------------------------------------------- */
+charadex.page.news = {
+
+  sheetPage: charadex.sheet.pages.news,
+  sitePage: 'news',
+  dexSelector: 'charadex',
+  profileProperty: 'id',
+
+  sort: {
+    toggle: false,
+    key: "id",
+    order: "asc",
+    parameters: []
+  },
+
+  pagination: {
+    toggle: true,
+    bottomToggle: true,
+    amount: 12,
+  },
+
+  filters: {
+    toggle: false,
+    parameters: {
+      'TBA': [],
+    }
+  },
+
+  fauxFolder: {
+    toggle: false,
+    folderProperty: '',
+    parameters: [],
+  },
+
+  search: {
+    toggle: true,
+    filterToggle: true,
+    parameters: ['All', 'Title', 'Description', 'Tags']
   },
 
   prevNext: {
