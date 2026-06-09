@@ -158,6 +158,54 @@ charadex.page.traits = {
 
 };
 
+/* Acsessories
+/* --------------------------------------------------------------- */
+charadex.page.traits = {
+
+  sheetPage: charadex.sheet.pages.accessories,
+  sitePage: 'accessories',
+  dexSelector: 'charadex',
+  profileProperty: 'accessory',
+
+  sort: {
+    toggle: true,
+    key: "id",
+    order: "asc",
+    parameters: []
+  },
+
+  pagination: {
+    toggle: true,
+    bottomToggle: true,
+    amount: 24,
+  },
+
+  filters: {
+    toggle: true,
+    parameters: {
+      'Type': charadex.sheet.options.traitTypes,
+      'Rarity': charadex.sheet.options.rarity,
+    }
+  },
+
+  fauxFolder: {
+    toggle: true,
+    folderProperty: 'Type',
+    parameters: charadex.sheet.options.traitTypes,
+  },
+
+  search: {
+    toggle: true,
+    filterToggle: true,
+    parameters: ['All', 'Trait', 'Rarity']
+  },
+
+  prevNext: {
+    toggle: true,
+  },
+
+};
+
 
 /* Prompts
 /* --------------------------------------------------------------- */
