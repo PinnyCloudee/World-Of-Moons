@@ -35,6 +35,7 @@ charadex.sheet = {
     inventoryLog:  "inventory log",
     items:         "items",
     traits:        "traits",
+    accessories:        "accessories",
     events:       "events",
     faq:           "faq",
     news:           "news",
@@ -48,7 +49,8 @@ charadex.sheet = {
     rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary'],
     species: ['All', 'Plains born', 'Mountain born', 'Forest born', 'Royal'],
     itemTypes: ['All', 'Currency', 'voucher', 'Accesory', 'Breeding', 'Misc'],
-    traitTypes: ['All', 'Ears', 'Eyes', 'Fluff', 'Wings', 'Horns', 'Tails', 'Special']
+    traitTypes: ['All', 'Ears', 'Eyes', 'Fluff', 'Wings', 'Horns', 'Tails', 'Special'],
+    accessoryTypes: ['All', 'Outfit', 'Head', 'Body', 'Legs', 'Tail', 'Background', 'Frame', 'Other']
 
   }
 
@@ -158,7 +160,7 @@ charadex.page.traits = {
 
 };
 
-/* Acsessories
+/* Accsessories
 /* --------------------------------------------------------------- */
 charadex.page.accessories = {
 
@@ -197,7 +199,7 @@ charadex.page.accessories = {
   search: {
     toggle: true,
     filterToggle: true,
-    parameters: ['All', 'Accsessory', 'Rarity', 'Type']
+    parameters: ['All', 'Accsessory', 'Rarity']
   },
 
   prevNext: {
