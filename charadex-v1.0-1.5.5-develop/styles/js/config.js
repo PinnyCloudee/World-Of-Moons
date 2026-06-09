@@ -160,7 +160,7 @@ charadex.page.traits = {
 
 /* Acsessories
 /* --------------------------------------------------------------- */
-charadex.page.traits = {
+charadex.page.accessories = {
 
   sheetPage: charadex.sheet.pages.accessories,
   sitePage: 'accessories',
