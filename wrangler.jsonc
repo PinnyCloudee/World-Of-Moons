@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "pinny",
+  "compatibility_date": "2026-06-16",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "charadex-v1.0-1.5.5-develop"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
