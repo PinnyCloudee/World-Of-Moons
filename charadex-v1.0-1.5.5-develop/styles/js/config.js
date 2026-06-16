@@ -162,14 +162,14 @@ charadex.page.traits = {
 
 };
 
-/* Traits
+/* Markings
 /* --------------------------------------------------------------- */
 charadex.page.markings = {
 
   sheetPage: charadex.sheet.pages.markings,
   sitePage: 'markings',
   dexSelector: 'charadex',
-  profileProperty: 'markings',
+  profileProperty: 'marking',
 
   sort: {
     toggle: true,
