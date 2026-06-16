@@ -36,6 +36,7 @@ charadex.sheet = {
     items:         "items",
     traits:        "traits",
     accessories:        "accessories",
+    markings:        "markings",
     events:       "events",
     faq:           "faq",
     news:           "news",
@@ -50,7 +51,8 @@ charadex.sheet = {
     species: ['All', 'Plains born', 'Mountain born', 'Forest born', 'Royal'],
     itemTypes: ['All', 'Currency', 'voucher', 'Accesory', 'Breeding', 'Misc'],
     traitTypes: ['All', 'Ears', 'Eyes', 'Fluff', 'Wings', 'Horns', 'Tails', 'Special'],
-    accessoryTypes: ['All', 'Outfit', 'Head', 'Body', 'Legs', 'Tail', 'Background', 'Frame', 'Other']
+    accessoryTypes: ['All', 'Outfit', 'Head', 'Body', 'Legs', 'Tail', 'Background', 'Frame', 'Other'],
+    markingTypes: ['All', 'Fullbody', 'Face', 'Legs', 'Ears', 'Tail', 'Wings', 'Hair', 'Other'],
 
   }
 
@@ -152,6 +154,54 @@ charadex.page.traits = {
     toggle: true,
     filterToggle: true,
     parameters: ['All', 'Trait', 'Rarity']
+  },
+
+  prevNext: {
+    toggle: true,
+  },
+
+};
+
+/* Traits
+/* --------------------------------------------------------------- */
+charadex.page.markings = {
+
+  sheetPage: charadex.sheet.pages.markings,
+  sitePage: 'markings',
+  dexSelector: 'charadex',
+  profileProperty: 'markings',
+
+  sort: {
+    toggle: true,
+    key: "id",
+    order: "asc",
+    parameters: []
+  },
+
+  pagination: {
+    toggle: true,
+    bottomToggle: true,
+    amount: 24,
+  },
+
+  filters: {
+    toggle: true,
+    parameters: {
+      'Type': charadex.sheet.options.markingTypes,
+      'Rarity': charadex.sheet.options.rarity,
+    }
+  },
+
+  fauxFolder: {
+    toggle: true,
+    folderProperty: 'Type',
+    parameters: charadex.sheet.options.markingTypes,
+  },
+
+  search: {
+    toggle: true,
+    filterToggle: true,
+    parameters: ['All', 'Rarity']
   },
 
   prevNext: {
